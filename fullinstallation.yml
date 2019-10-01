@@ -1,4 +1,5 @@
 - hosts: localhost
+  connection: local
   tasks:
     - name: task 1 tomcat8 stop
       service: name=tomcat8 state=stopped
